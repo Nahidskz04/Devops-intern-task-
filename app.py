@@ -8,7 +8,7 @@ def hello():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>DevOps Intern App</title>
+        <title>DevOps Intern App </title>
         <style>
             body {
                 margin: 0;
@@ -16,21 +16,33 @@ def hello():
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background: linear-gradient(135deg, #1e3c72, #2a5298);
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: linear-gradient(135deg, #ffd6e8, #ffc2d1);
+                font-family: 'Segoe UI', sans-serif;
+            }
+            .card {
+                background: #fff0f6;
+                padding: 50px 70px;
+                border-radius: 25px;
+                box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+                text-align: center;
+                border: 2px solid #ff99c8;
             }
             h1 {
-                color: white;
-                font-size: 48px;
-                text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-                padding: 20px 40px;
-                border: 2px solid white;
-                border-radius: 10px;
+                font-size: 42px;
+                color: #d63384;
+                margin: 0;
+            }
+            p {
+                margin-top: 15px;
+                color: #c2185b;
+                font-size: 18px;
             }
         </style>
     </head>
     <body>
-        <h1>Hello from DevOps Intern 🚀</h1>
+        <div class="card">
+            <h1>Hello from DevOps Intern </h1>
+        </div>
     </body>
     </html>
     """
