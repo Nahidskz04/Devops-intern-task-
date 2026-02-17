@@ -1,14 +1,7 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.get("/")
-def hello():
-    return """
     <!DOCTYPE html>
     <html>
     <head>
-        <title>DevOps Intern App </title>
+        <title>DevOps Intern App 💖</title>
         <style>
             body {
                 margin: 0;
@@ -19,6 +12,7 @@ def hello():
                 background: linear-gradient(135deg, #ffd6e8, #ffc2d1);
                 font-family: 'Segoe UI', sans-serif;
             }
+
             .card {
                 background: #fff0f6;
                 padding: 50px 70px;
@@ -27,11 +21,13 @@ def hello():
                 text-align: center;
                 border: 2px solid #ff99c8;
             }
+
             h1 {
                 font-size: 42px;
                 color: #d63384;
                 margin: 0;
             }
+
             p {
                 margin-top: 15px;
                 color: #c2185b;
@@ -41,11 +37,7 @@ def hello():
     </head>
     <body>
         <div class="card">
-            <h1>Hello from DevOps Intern </h1>
+            <h1>Hello from DevOps Intern ☁️🐳</h1>
         </div>
     </body>
     </html>
-    """
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
